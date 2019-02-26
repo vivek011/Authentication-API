@@ -1,0 +1,23 @@
+{
+  "name": "authentication-backend",
+  "version": "1.0.0",
+  "description": "Authentication apis",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Vivek Kumar Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-fileupload": "^1.1.1-alpha.3",
+    "jsonwebtoken": "^8.5.0",
+    "mongoose": "^5.4.15",
+    "underscore": "^1.9.1"
+  }
+}
